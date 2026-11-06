@@ -2,6 +2,9 @@ __pycache__/
 *.pyc
 .DS_Store
 outputs/
+out/
+art/
+.venv/
 .tmp/
 .pytest_cache/
 .env
@@ -9,3 +12,4 @@ outputs/
 !.env.example
 .forge/
 AGENTS.md
+
