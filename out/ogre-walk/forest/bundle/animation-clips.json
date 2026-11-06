@@ -1,0 +1,1229 @@
+{
+  "schema": "generate2dsprite.animation_clips.v2",
+  "source_manifest": {
+    "path": "../clips.json",
+    "file_sha256": "dfc734feb6426a806e96b57c49d1596f9cd1668af3f2ee02ff63377e20a3d7f2",
+    "copy": "source-manifest.json"
+  },
+  "frame_size": [
+    24,
+    28
+  ],
+  "anchor_px": [
+    12,
+    26
+  ],
+  "anchor_semantics": "shared canvas/root origin, often a ground reference; not per-frame visible bottom",
+  "sampling": "nearest",
+  "pixel_art": true,
+  "placeholder": false,
+  "art_source": "code",
+  "frames": [
+    {
+      "index": 0,
+      "name": "down-stand",
+      "source": {
+        "path": "../frames/down-stand.png",
+        "file_sha256": "d9f86161dc64bab85c07b4a5dc71314d453443e9f043a031dc2c85940dc5bd58",
+        "bytes": 548,
+        "size": [
+          24,
+          28
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "0dc77c362d3a7862e8a3b78467849b6080c5d62d167cb568422ab51ae288b215",
+      "transparent_pixel_count": 344,
+      "visible_pixel_count": 328,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-00.png"
+    },
+    {
+      "index": 1,
+      "name": "down-step-a",
+      "source": {
+        "path": "../frames/down-step-a.png",
+        "file_sha256": "c210b34185bf76d4259c8ab8cf91603127e71678c248caeaa1adac16b5146fd6",
+        "bytes": 567,
+        "size": [
+          24,
+          28
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "600410da23d39361688035deadc22163cf7387b2aa74259c5878063725aebda6",
+      "transparent_pixel_count": 364,
+      "visible_pixel_count": 308,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-01.png"
+    },
+    {
+      "index": 2,
+      "name": "down-step-b",
+      "source": {
+        "path": "../frames/down-step-b.png",
+        "file_sha256": "c10b1cc315b4f70799e0be36fdd7de8c7327a33ff7d0113dcd7718166c523736",
+        "bytes": 562,
+        "size": [
+          24,
+          28
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "6e18f29ffd82a825a051758a90918881c31d5143aecece39f91181d0f71da64f",
+      "transparent_pixel_count": 364,
+      "visible_pixel_count": 308,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-02.png"
+    },
+    {
+      "index": 3,
+      "name": "up-stand",
+      "source": {
+        "path": "../frames/up-stand.png",
+        "file_sha256": "c015ea0274b54aa4de979ff8ca23a1a54d9a94d684edbba98f681a792ab4e025",
+        "bytes": 505,
+        "size": [
+          24,
+          28
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "35007fa311914975170d2d27b2b71a7e789a4a492721144b0ba425cd8f58eb9d",
+      "transparent_pixel_count": 344,
+      "visible_pixel_count": 328,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-03.png"
+    },
+    {
+      "index": 4,
+      "name": "up-step-a",
+      "source": {
+        "path": "../frames/up-step-a.png",
+        "file_sha256": "c1a5ea46670fffe7d8226f01299f29e8da4568d0e1b5136f824399f265c8a392",
+        "bytes": 512,
+        "size": [
+          24,
+          28
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "e8d428019b8326150492a283c2c2ddeb81bd5ffe8b18a5399907abc59e634958",
+      "transparent_pixel_count": 364,
+      "visible_pixel_count": 308,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-04.png"
+    },
+    {
+      "index": 5,
+      "name": "up-step-b",
+      "source": {
+        "path": "../frames/up-step-b.png",
+        "file_sha256": "e008d06e2f1e0e2d811988ecff1bbda0dfefbe56ed8477577642aa848f74e9ac",
+        "bytes": 511,
+        "size": [
+          24,
+          28
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "eaa2a1ad0cd99f120caddb620b37790767e6fc660ec99df80638409e3d8ef0d6",
+      "transparent_pixel_count": 364,
+      "visible_pixel_count": 308,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-05.png"
+    },
+    {
+      "index": 6,
+      "name": "right-stand",
+      "source": {
+        "path": "../frames/right-stand.png",
+        "file_sha256": "82d592c050e2b825feb4630785b88f6316fa0b36172a6b1878b7f03f9f69e4e7",
+        "bytes": 544,
+        "size": [
+          24,
+          28
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "ac936956822942180acfbc376dc7d1ac4b7d3dbbddeb89ac6d2cc7a1a0ddfa84",
+      "transparent_pixel_count": 418,
+      "visible_pixel_count": 254,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-06.png"
+    },
+    {
+      "index": 7,
+      "name": "right-step-a",
+      "source": {
+        "path": "../frames/right-step-a.png",
+        "file_sha256": "763247d6c4a6356c95124de0b2eb7c7ae304cee5ba11c58428528c331e7d37e9",
+        "bytes": 579,
+        "size": [
+          24,
+          28
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "fe245a25ad34bc5e7cfd65939a3807f003d027fc31965dff2579209e68310ab7",
+      "transparent_pixel_count": 419,
+      "visible_pixel_count": 253,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-07.png"
+    },
+    {
+      "index": 8,
+      "name": "right-step-b",
+      "source": {
+        "path": "../frames/right-step-b.png",
+        "file_sha256": "1208866f2caec4300b488ce0a861f84ca8ac366b0337e57e0827e9733812438c",
+        "bytes": 540,
+        "size": [
+          24,
+          28
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "040192737cd5940ec6db1745c1d86646ee4beec5ba15c9278f9763ad54b4d78b",
+      "transparent_pixel_count": 414,
+      "visible_pixel_count": 258,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-08.png"
+    },
+    {
+      "index": 9,
+      "name": "left-stand",
+      "source": {
+        "path": "../frames/left-stand.png",
+        "file_sha256": "ce348d07b53747e9d35f70af85ce0a0285a6182a4ca71fb707d56a78f5b57faa",
+        "bytes": 532,
+        "size": [
+          24,
+          28
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "b46bc1b36299ca12781bfd8618ec7b359f6b4b5134dd2c8ce0ade481d32c283d",
+      "transparent_pixel_count": 418,
+      "visible_pixel_count": 254,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-09.png"
+    },
+    {
+      "index": 10,
+      "name": "left-step-a",
+      "source": {
+        "path": "../frames/left-step-a.png",
+        "file_sha256": "ff51a858c700291a032eca08ad91df2dbd59a21a1c5914d7192fc673f93e7912",
+        "bytes": 554,
+        "size": [
+          24,
+          28
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "d86f2a0c7c5f4d218a25696c578a39dc9a4559452f1fb417d05c2ce5ca36b22e",
+      "transparent_pixel_count": 419,
+      "visible_pixel_count": 253,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-10.png"
+    },
+    {
+      "index": 11,
+      "name": "left-step-b",
+      "source": {
+        "path": "../frames/left-step-b.png",
+        "file_sha256": "174915fbf375675e6b5fa7f654303b3117e5340c234ef5582ef671d11ad172c9",
+        "bytes": 569,
+        "size": [
+          24,
+          28
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "0e127826d13f47d0296ae36e5203638d7ee4aafd2401bad5f48f62baf778f6cb",
+      "transparent_pixel_count": 414,
+      "visible_pixel_count": 258,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-11.png"
+    }
+  ],
+  "clips": {
+    "walk_down": {
+      "frames": [
+        0,
+        1,
+        0,
+        2
+      ],
+      "duration_ms": [
+        180,
+        180,
+        180,
+        180
+      ],
+      "loop": true,
+      "total_duration_ms": 720,
+      "nominal_fps": 5.555555555555555,
+      "average_fps": 5.555555555555555,
+      "loop_policy": "cycle",
+      "timing_source": "duration_ms",
+      "fps_rational": "50/9",
+      "events_ms": [],
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 6.667,
+        "frame_ticks": [
+          11,
+          11,
+          10,
+          11
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 43.2,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "seam": {
+        "frames": 4,
+        "seam": 18.52381,
+        "adjacent_median": 18.52381,
+        "adjacent_p95": 18.52381,
+        "adjacent_max": 18.52381,
+        "seam_over_median": 1.0,
+        "seam_over_p95": 1.0,
+        "method": "premultiplied RGBA mean absolute difference (0-255); seam = last -> first",
+        "adjacent_mean": 18.52381,
+        "wrap_ratio": 1.0
+      },
+      "preview": {
+        "file": "clips/clip-00.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 180,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 180,
+            "duration_ms": 180,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 360,
+            "duration_ms": 180,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 540,
+            "duration_ms": 180,
+            "clip_positions": [
+              3
+            ]
+          }
+        ],
+        "decoded_frame_count": 4,
+        "total_duration_ms": 720,
+        "native_loop_count": 0,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "c883c59487e263e30d4de5279f48faf2f3807cbd62f8e68ba8562c90eafbbdc8"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 17.61508,
+          "alpha_mae": 21.25,
+          "changed_visible_pixels": 218
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 17.61508,
+          "alpha_mae": 21.25,
+          "changed_visible_pixels": 218
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 17.61508,
+          "alpha_mae": 21.25,
+          "changed_visible_pixels": 218
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": true,
+        "premultiplied_rgb_mae": 17.61508,
+        "alpha_mae": 21.25,
+        "changed_visible_pixels": 218
+      }
+    },
+    "walk_up": {
+      "frames": [
+        3,
+        4,
+        3,
+        5
+      ],
+      "duration_ms": [
+        180,
+        180,
+        180,
+        180
+      ],
+      "loop": true,
+      "total_duration_ms": 720,
+      "nominal_fps": 5.555555555555555,
+      "average_fps": 5.555555555555555,
+      "loop_policy": "cycle",
+      "timing_source": "duration_ms",
+      "fps_rational": "50/9",
+      "events_ms": [],
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 6.667,
+        "frame_ticks": [
+          11,
+          11,
+          10,
+          11
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 43.2,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "seam": {
+        "frames": 4,
+        "seam": 17.352679,
+        "adjacent_median": 17.352679,
+        "adjacent_p95": 17.352679,
+        "adjacent_max": 17.352679,
+        "seam_over_median": 1.0,
+        "seam_over_p95": 1.0,
+        "method": "premultiplied RGBA mean absolute difference (0-255); seam = last -> first",
+        "adjacent_mean": 17.352679,
+        "wrap_ratio": 1.0
+      },
+      "preview": {
+        "file": "clips/clip-01.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 180,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 180,
+            "duration_ms": 180,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 360,
+            "duration_ms": 180,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 540,
+            "duration_ms": 180,
+            "clip_positions": [
+              3
+            ]
+          }
+        ],
+        "decoded_frame_count": 4,
+        "total_duration_ms": 720,
+        "native_loop_count": 0,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "429b04a8c00e49c9d67d29dc435b2981d818ae8bc94aabfb5b3b19a86c54bf8c"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 16.053572,
+          "alpha_mae": 21.25,
+          "changed_visible_pixels": 206
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 16.053572,
+          "alpha_mae": 21.25,
+          "changed_visible_pixels": 206
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 16.053572,
+          "alpha_mae": 21.25,
+          "changed_visible_pixels": 206
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": true,
+        "premultiplied_rgb_mae": 16.053572,
+        "alpha_mae": 21.25,
+        "changed_visible_pixels": 206
+      }
+    },
+    "walk_right": {
+      "frames": [
+        6,
+        7,
+        6,
+        8
+      ],
+      "duration_ms": [
+        180,
+        180,
+        180,
+        180
+      ],
+      "loop": true,
+      "total_duration_ms": 720,
+      "nominal_fps": 5.555555555555555,
+      "average_fps": 5.555555555555555,
+      "loop_policy": "cycle",
+      "timing_source": "duration_ms",
+      "fps_rational": "50/9",
+      "events_ms": [],
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 6.667,
+        "frame_ticks": [
+          11,
+          11,
+          10,
+          11
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 43.2,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "seam": {
+        "frames": 4,
+        "seam": 17.705357,
+        "adjacent_median": 18.629836,
+        "adjacent_p95": 18.629836,
+        "adjacent_max": 18.629836,
+        "seam_over_median": 0.950376,
+        "seam_over_p95": 0.950376,
+        "method": "premultiplied RGBA mean absolute difference (0-255); seam = last -> first",
+        "adjacent_mean": 18.321677,
+        "wrap_ratio": 0.966361
+      },
+      "preview": {
+        "file": "clips/clip-02.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 180,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 180,
+            "duration_ms": 180,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 360,
+            "duration_ms": 180,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 540,
+            "duration_ms": 180,
+            "clip_positions": [
+              3
+            ]
+          }
+        ],
+        "decoded_frame_count": 4,
+        "total_duration_ms": 720,
+        "native_loop_count": 0,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "29d28f9e416275553f811da828ce0d203455e8a8655190649270fb5f2d9842e4"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 16.36508,
+          "alpha_mae": 25.424107,
+          "changed_visible_pixels": 201
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 16.36508,
+          "alpha_mae": 25.424107,
+          "changed_visible_pixels": 201
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 15.764881,
+          "alpha_mae": 23.526786,
+          "changed_visible_pixels": 193
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": true,
+        "premultiplied_rgb_mae": 15.764881,
+        "alpha_mae": 23.526786,
+        "changed_visible_pixels": 193
+      }
+    },
+    "walk_left": {
+      "frames": [
+        9,
+        10,
+        9,
+        11
+      ],
+      "duration_ms": [
+        180,
+        180,
+        180,
+        180
+      ],
+      "loop": true,
+      "total_duration_ms": 720,
+      "nominal_fps": 5.555555555555555,
+      "average_fps": 5.555555555555555,
+      "loop_policy": "cycle",
+      "timing_source": "duration_ms",
+      "fps_rational": "50/9",
+      "events_ms": [],
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 6.667,
+        "frame_ticks": [
+          11,
+          11,
+          10,
+          11
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 43.2,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "seam": {
+        "frames": 4,
+        "seam": 17.705357,
+        "adjacent_median": 18.629836,
+        "adjacent_p95": 18.629836,
+        "adjacent_max": 18.629836,
+        "seam_over_median": 0.950376,
+        "seam_over_p95": 0.950376,
+        "method": "premultiplied RGBA mean absolute difference (0-255); seam = last -> first",
+        "adjacent_mean": 18.321677,
+        "wrap_ratio": 0.966361
+      },
+      "preview": {
+        "file": "clips/clip-03.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 180,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 180,
+            "duration_ms": 180,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 360,
+            "duration_ms": 180,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 540,
+            "duration_ms": 180,
+            "clip_positions": [
+              3
+            ]
+          }
+        ],
+        "decoded_frame_count": 4,
+        "total_duration_ms": 720,
+        "native_loop_count": 0,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "0c0a08db69af56662dca5cb0e054c4f536da09a2389bdccb10b143fb7d9f0772"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 16.36508,
+          "alpha_mae": 25.424107,
+          "changed_visible_pixels": 201
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 16.36508,
+          "alpha_mae": 25.424107,
+          "changed_visible_pixels": 201
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 15.764881,
+          "alpha_mae": 23.526786,
+          "changed_visible_pixels": 193
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": true,
+        "premultiplied_rgb_mae": 15.764881,
+        "alpha_mae": 23.526786,
+        "changed_visible_pixels": 193
+      }
+    }
+  },
+  "states": {},
+  "diagnostics": {
+    "visible_pixel_duplicate_groups": [],
+    "visual_approval": false,
+    "note": "Pixel differences and duplicates do not establish animation quality or physical root stability.",
+    "near_duplicate_mae": 1.5,
+    "near_duplicate_pairs": [],
+    "tick_hz": 60,
+    "lint": [
+      {
+        "code": "uneven_ticks",
+        "severity": "warning",
+        "message": "Clip walk_down: 180 ms frames show for [10, 11] ticks at 60 Hz; even playback needs multiples of 1000/60 ms (author ticks).",
+        "clip": "walk_down"
+      },
+      {
+        "code": "uneven_ticks",
+        "severity": "warning",
+        "message": "Clip walk_up: 180 ms frames show for [10, 11] ticks at 60 Hz; even playback needs multiples of 1000/60 ms (author ticks).",
+        "clip": "walk_up"
+      },
+      {
+        "code": "uneven_ticks",
+        "severity": "warning",
+        "message": "Clip walk_right: 180 ms frames show for [10, 11] ticks at 60 Hz; even playback needs multiples of 1000/60 ms (author ticks).",
+        "clip": "walk_right"
+      },
+      {
+        "code": "uneven_ticks",
+        "severity": "warning",
+        "message": "Clip walk_left: 180 ms frames show for [10, 11] ticks at 60 Hz; even playback needs multiples of 1000/60 ms (author ticks).",
+        "clip": "walk_left"
+      }
+    ]
+  },
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "native_scale": true,
+    "scale": 1,
+    "requested_scale": 1,
+    "annotated_with_shared_root": true,
+    "not_a_runtime_atlas": true,
+    "file_sha256": "48cb6116e0db3ae9c2503d12eec9ae84bf3c52ffa12aa3406a6d25cf8c1f3da0"
+  },
+  "review": {
+    "scale": 1,
+    "requested_scale": 1,
+    "backgrounds": [
+      "light",
+      "dark",
+      "checker"
+    ],
+    "filmstrips": {
+      "walk_down": {
+        "file": "review/filmstrip-00.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "walk_up": {
+        "file": "review/filmstrip-01.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "walk_right": {
+        "file": "review/filmstrip-02.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "walk_left": {
+        "file": "review/filmstrip-03.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 4,
+        "truncated": false
+      }
+    },
+    "onion": {
+      "walk_down": {
+        "file": "review/onion-00.png",
+        "background": "checker",
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "walk_up": {
+        "file": "review/onion-01.png",
+        "background": "checker",
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "walk_right": {
+        "file": "review/onion-02.png",
+        "background": "checker",
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "walk_left": {
+        "file": "review/onion-03.png",
+        "background": "checker",
+        "positions_shown": 4,
+        "truncated": false
+      }
+    },
+    "transitions": [],
+    "turn_test": {
+      "file": "review/turn-test.png",
+      "background": "dark",
+      "anchor_mark_rgb": [
+        255,
+        220,
+        80
+      ],
+      "cells": [
+        {
+          "clip": "walk_down",
+          "frame": 0,
+          "anchor_screen_x": 64,
+          "rows": [
+            [
+              32,
+              60
+            ],
+            [
+              76,
+              104
+            ]
+          ],
+          "mirrored_offset_px": 0,
+          "turn_slide_px": 0.0
+        },
+        {
+          "clip": "walk_up",
+          "frame": 3,
+          "anchor_screen_x": 192,
+          "rows": [
+            [
+              32,
+              60
+            ],
+            [
+              76,
+              104
+            ]
+          ],
+          "mirrored_offset_px": 0,
+          "turn_slide_px": 0.0
+        },
+        {
+          "clip": "walk_right",
+          "frame": 6,
+          "anchor_screen_x": 320,
+          "rows": [
+            [
+              32,
+              60
+            ],
+            [
+              76,
+              104
+            ]
+          ],
+          "mirrored_offset_px": 0,
+          "turn_slide_px": 4.0
+        },
+        {
+          "clip": "walk_left",
+          "frame": 9,
+          "anchor_screen_x": 448,
+          "rows": [
+            [
+              32,
+              60
+            ],
+            [
+              76,
+              104
+            ]
+          ],
+          "mirrored_offset_px": 0,
+          "turn_slide_px": 4.0
+        }
+      ],
+      "clips_shown": 4,
+      "truncated": false
+    }
+  },
+  "processing": {
+    "source_pngs_byte_identical": true,
+    "resized": false,
+    "cropped": false,
+    "per_frame_alignment": false,
+    "chroma_keyed": false
+  },
+  "alpha_validation": "Every input has fully transparent and visible pixels; edge quality still requires visual review.",
+  "qa": {
+    "status": "warn",
+    "method": "Frame PNGs are byte copies (sha256 checked); each WebP preview is decoded and its timing, alpha and visible RGB compared with the source frames; tick grid = cumulative integer-ms boundaries rounded to the nearest tick; holds = repeated indices or premultiplied union-visible MAE <= 1.5; seams = forge_core.seam_report with wrap_ratio = seam / mean adjacent step; telegraph = tell -> hit in 60 Hz ticks.",
+    "notProven": [
+      "animation quality, gait, anatomy or identity",
+      "physical root stability or foot contact (anchor_px is declared, not measured)",
+      "runtime playback on a device (previews are verified files, not a game loop)",
+      "that near-duplicate thresholds suit every art style (heuristic)"
+    ],
+    "checks": [
+      {
+        "id": "png_byte_copy",
+        "status": "pass",
+        "value": 12,
+        "threshold": null
+      },
+      {
+        "id": "webp_timeline",
+        "status": "pass",
+        "value": 4,
+        "threshold": null
+      },
+      {
+        "id": "tick_grid",
+        "status": "warn",
+        "value": 6.667,
+        "threshold": null
+      },
+      {
+        "id": "telegraph",
+        "threshold": 28,
+        "status": "skipped",
+        "value": null
+      },
+      {
+        "id": "near_duplicate_holds",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0
+      },
+      {
+        "id": "loop_seam",
+        "status": "needs-visual-review",
+        "value": 1.0,
+        "threshold": null
+      },
+      {
+        "id": "manifest_lint",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0
+      }
+    ],
+    "inputs": [
+      {
+        "path": "../clips.json",
+        "sha256": "dfc734feb6426a806e96b57c49d1596f9cd1668af3f2ee02ff63377e20a3d7f2",
+        "bytes": 1743
+      },
+      {
+        "path": "../frames/down-stand.png",
+        "sha256": "d9f86161dc64bab85c07b4a5dc71314d453443e9f043a031dc2c85940dc5bd58",
+        "bytes": 548
+      },
+      {
+        "path": "../frames/down-step-a.png",
+        "sha256": "c210b34185bf76d4259c8ab8cf91603127e71678c248caeaa1adac16b5146fd6",
+        "bytes": 567
+      },
+      {
+        "path": "../frames/down-step-b.png",
+        "sha256": "c10b1cc315b4f70799e0be36fdd7de8c7327a33ff7d0113dcd7718166c523736",
+        "bytes": 562
+      },
+      {
+        "path": "../frames/up-stand.png",
+        "sha256": "c015ea0274b54aa4de979ff8ca23a1a54d9a94d684edbba98f681a792ab4e025",
+        "bytes": 505
+      },
+      {
+        "path": "../frames/up-step-a.png",
+        "sha256": "c1a5ea46670fffe7d8226f01299f29e8da4568d0e1b5136f824399f265c8a392",
+        "bytes": 512
+      },
+      {
+        "path": "../frames/up-step-b.png",
+        "sha256": "e008d06e2f1e0e2d811988ecff1bbda0dfefbe56ed8477577642aa848f74e9ac",
+        "bytes": 511
+      },
+      {
+        "path": "../frames/right-stand.png",
+        "sha256": "82d592c050e2b825feb4630785b88f6316fa0b36172a6b1878b7f03f9f69e4e7",
+        "bytes": 544
+      },
+      {
+        "path": "../frames/right-step-a.png",
+        "sha256": "763247d6c4a6356c95124de0b2eb7c7ae304cee5ba11c58428528c331e7d37e9",
+        "bytes": 579
+      },
+      {
+        "path": "../frames/right-step-b.png",
+        "sha256": "1208866f2caec4300b488ce0a861f84ca8ac366b0337e57e0827e9733812438c",
+        "bytes": 540
+      },
+      {
+        "path": "../frames/left-stand.png",
+        "sha256": "ce348d07b53747e9d35f70af85ce0a0285a6182a4ca71fb707d56a78f5b57faa",
+        "bytes": 532
+      },
+      {
+        "path": "../frames/left-step-a.png",
+        "sha256": "ff51a858c700291a032eca08ad91df2dbd59a21a1c5914d7192fc673f93e7912",
+        "bytes": 554
+      },
+      {
+        "path": "../frames/left-step-b.png",
+        "sha256": "174915fbf375675e6b5fa7f654303b3117e5340c234ef5582ef671d11ad172c9",
+        "bytes": 569
+      }
+    ],
+    "outputs": [
+      {
+        "path": "frames/frame-00.png",
+        "sha256": "d9f86161dc64bab85c07b4a5dc71314d453443e9f043a031dc2c85940dc5bd58",
+        "bytes": 548
+      },
+      {
+        "path": "frames/frame-01.png",
+        "sha256": "c210b34185bf76d4259c8ab8cf91603127e71678c248caeaa1adac16b5146fd6",
+        "bytes": 567
+      },
+      {
+        "path": "frames/frame-02.png",
+        "sha256": "c10b1cc315b4f70799e0be36fdd7de8c7327a33ff7d0113dcd7718166c523736",
+        "bytes": 562
+      },
+      {
+        "path": "frames/frame-03.png",
+        "sha256": "c015ea0274b54aa4de979ff8ca23a1a54d9a94d684edbba98f681a792ab4e025",
+        "bytes": 505
+      },
+      {
+        "path": "frames/frame-04.png",
+        "sha256": "c1a5ea46670fffe7d8226f01299f29e8da4568d0e1b5136f824399f265c8a392",
+        "bytes": 512
+      },
+      {
+        "path": "frames/frame-05.png",
+        "sha256": "e008d06e2f1e0e2d811988ecff1bbda0dfefbe56ed8477577642aa848f74e9ac",
+        "bytes": 511
+      },
+      {
+        "path": "frames/frame-06.png",
+        "sha256": "82d592c050e2b825feb4630785b88f6316fa0b36172a6b1878b7f03f9f69e4e7",
+        "bytes": 544
+      },
+      {
+        "path": "frames/frame-07.png",
+        "sha256": "763247d6c4a6356c95124de0b2eb7c7ae304cee5ba11c58428528c331e7d37e9",
+        "bytes": 579
+      },
+      {
+        "path": "frames/frame-08.png",
+        "sha256": "1208866f2caec4300b488ce0a861f84ca8ac366b0337e57e0827e9733812438c",
+        "bytes": 540
+      },
+      {
+        "path": "frames/frame-09.png",
+        "sha256": "ce348d07b53747e9d35f70af85ce0a0285a6182a4ca71fb707d56a78f5b57faa",
+        "bytes": 532
+      },
+      {
+        "path": "frames/frame-10.png",
+        "sha256": "ff51a858c700291a032eca08ad91df2dbd59a21a1c5914d7192fc673f93e7912",
+        "bytes": 554
+      },
+      {
+        "path": "frames/frame-11.png",
+        "sha256": "174915fbf375675e6b5fa7f654303b3117e5340c234ef5582ef671d11ad172c9",
+        "bytes": 569
+      },
+      {
+        "path": "clips/clip-00.webp",
+        "sha256": "c883c59487e263e30d4de5279f48faf2f3807cbd62f8e68ba8562c90eafbbdc8",
+        "bytes": 1154
+      },
+      {
+        "path": "clips/clip-01.webp",
+        "sha256": "429b04a8c00e49c9d67d29dc435b2981d818ae8bc94aabfb5b3b19a86c54bf8c",
+        "bytes": 1022
+      },
+      {
+        "path": "clips/clip-02.webp",
+        "sha256": "29d28f9e416275553f811da828ce0d203455e8a8655190649270fb5f2d9842e4",
+        "bytes": 1170
+      },
+      {
+        "path": "clips/clip-03.webp",
+        "sha256": "0c0a08db69af56662dca5cb0e054c4f536da09a2389bdccb10b143fb7d9f0772",
+        "bytes": 1180
+      },
+      {
+        "path": "contact-sheet.png",
+        "sha256": "48cb6116e0db3ae9c2503d12eec9ae84bf3c52ffa12aa3406a6d25cf8c1f3da0",
+        "bytes": 14813
+      },
+      {
+        "path": "review/filmstrip-00.png",
+        "sha256": "9a343b0da765b9a7d4b2d49c77ea4632a1acd7060074ecb3d05e37fbfc034d2b",
+        "bytes": 16075
+      },
+      {
+        "path": "review/onion-00.png",
+        "sha256": "258b5e67ce8df8768352fd96c2ae00b0f708664712366d0870b871ef0c548e7b",
+        "bytes": 5584
+      },
+      {
+        "path": "review/filmstrip-01.png",
+        "sha256": "f0fc2689b152cbdadcdde1d4f66e66dba705fcb6beae1db16bb86a142b7ca81c",
+        "bytes": 16434
+      },
+      {
+        "path": "review/onion-01.png",
+        "sha256": "fa732dad4c000a596c84de7f54a936ecffed0e44c1fd68e72861658ea0087b40",
+        "bytes": 5678
+      },
+      {
+        "path": "review/filmstrip-02.png",
+        "sha256": "b60d3f6cabbc3488c71355ee15288da0a1f95c4d65a8f010f56c4d274ddde35e",
+        "bytes": 16802
+      },
+      {
+        "path": "review/onion-02.png",
+        "sha256": "6c7ef7b83e4b1531b8a3b5a5712499c7994028a945a0fa3bde9125dec67ce50a",
+        "bytes": 6411
+      },
+      {
+        "path": "review/filmstrip-03.png",
+        "sha256": "2f4376e70dc085cb200bf20533f15d5c25fa10ba2e7f9c69f6d82b49e7eed1d4",
+        "bytes": 16514
+      },
+      {
+        "path": "review/onion-03.png",
+        "sha256": "845e6bbccea8ff3ebb5684ae2d67a2801af01f41e48b327a15aa712bd67b480e",
+        "bytes": 5946
+      },
+      {
+        "path": "review/turn-test.png",
+        "sha256": "03b15ae4fa8b24afe62cf3a3504c5163f560468d4e76479ff81268a3cdddd05f",
+        "bytes": 9609
+      }
+    ],
+    "tool": {
+      "name": "build_animation_clips",
+      "version": "0.4.0"
+    }
+  }
+}

@@ -1,0 +1,546 @@
+{
+  "schema": "codeart2d.pixelspec.v1",
+  "name": "ogre",
+  "canvas": [
+    24,
+    28
+  ],
+  "anchor_px": [
+    12,
+    26
+  ],
+  "palette": {
+    "k": "#181622",
+    "g": "#5e9436",
+    "G": "#3a6620",
+    "l": "#86c244",
+    "w": "#eee4be",
+    "W": "#b2a278",
+    "y": "#f6c428",
+    "r": "#c2241e",
+    "b": "#6e4222",
+    "B": "#442410",
+    "m": "#8e969e",
+    "c": "#986436",
+    "C": "#5e381a",
+    "i": "#d8e0e8",
+    "f": "#4a321a"
+  },
+  "variants": {
+    "forest": {},
+    "frost": {
+      "g": "#4e82a4",
+      "G": "#2e5674",
+      "l": "#78b2d8",
+      "b": "#3a4456",
+      "B": "#222836",
+      "f": "#2c3646"
+    },
+    "oni": {
+      "g": "#aa382e",
+      "G": "#742018",
+      "l": "#d65a4c",
+      "b": "#483428",
+      "B": "#2a1c14",
+      "f": "#382218"
+    }
+  },
+  "outline": {
+    "mode": "solid",
+    "color": "k"
+  },
+  "poses": {
+    "head_front": [
+      "..w..ll..w..",
+      ".ww.llll.ww.",
+      "wGllggggllGw",
+      "GlllgggglllG",
+      "GGl.yrry.lGG",
+      "GG..yrry..GG",
+      "GG...GG...GG",
+      "wGGGGGGGGGGw",
+      ".WGGggggGGW.",
+      "..WWGGGGWW.."
+    ],
+    "head_back": [
+      "..w..ll..w..",
+      ".ww.llll.ww.",
+      "wGllggggllGw",
+      "GlllgggglllG",
+      "GGllggggllGG",
+      "GGGggggggGGG",
+      "GGGGggggGGGG",
+      "wGGGGGGGGGGw",
+      ".WGGggggGGW.",
+      "..WWGGGGWW.."
+    ],
+    "head_side": [
+      "..ll..w.....",
+      ".llll.ww....",
+      "llllg.Ww....",
+      "lllggGG.....",
+      "llg.yrG.....",
+      "lg..rGGG....",
+      "GG...GGG....",
+      "GGGGGGGGw...",
+      ".GGGgggGW...",
+      "..GGGGG....."
+    ],
+    "body_front": [
+      "....GGGGGG....",
+      "..GGllllllGG..",
+      ".GllggggggllG.",
+      "GllggggggggllG",
+      "GGllbBmmBbllGG",
+      ".GllBBBBBBllG.",
+      "..GGbbbbbbGG..",
+      "....bb..bb....",
+      "....BB..BB...."
+    ],
+    "body_back": [
+      "....GGGGGG....",
+      "..GGllllllGG..",
+      ".GllggggggllG.",
+      "GllggggggggllG",
+      "GGllBBBBBBllGG",
+      ".GllBBBBBBllG.",
+      "..GGbbbbbbGG..",
+      "....bb..bb....",
+      "....BB..BB...."
+    ],
+    "body_side": [
+      "..GGGGGG......",
+      ".GllllllG.....",
+      "GllggggllG....",
+      "GllggggllG....",
+      ".GbbmmBBG.....",
+      ".GBBBBBG......",
+      ".GbbbbG.......",
+      "..bbbb........",
+      "..BBBB........"
+    ],
+    "body_side_lean_fore": [
+      "...GGGGGG.....",
+      "..GllllllG....",
+      ".Gllggggll....",
+      ".Gllggggll....",
+      "..GbbmmBBG....",
+      "..GBBBBBG.....",
+      "..GbbbbG......",
+      "...bbbb.......",
+      "...BBBB......."
+    ],
+    "body_side_lean_back": [
+      ".GGGGGG.......",
+      "GllllllG......",
+      "llggggllG.....",
+      "llggggllG.....",
+      "GbbmmBBG......",
+      "GBBBBBG.......",
+      "GbbbbG........",
+      ".bbbb.........",
+      ".BBBB........."
+    ],
+    "club_front": [
+      "............mi..",
+      "...........iCCCi",
+      "..........iCCCCC",
+      "...........CCCCi",
+      "............cc..",
+      "............cc..",
+      "............cC..",
+      "............cC.."
+    ],
+    "club_side": [
+      "..mi............",
+      ".iCCCi..........",
+      "iCCCCC..........",
+      ".CCCCi..........",
+      "..cc............",
+      "...cc...........",
+      "....cC..........",
+      ".....cC........."
+    ],
+    "legs_front_stand": [
+      "..bb....bb..",
+      ".GllG..GllG.",
+      ".GllG..GllG.",
+      ".GllG..GllG.",
+      ".BffB..BffB.",
+      "BBffB..BffBB",
+      "ffffB..Bffff"
+    ],
+    "legs_front_step_a": [
+      "..bb....bb..",
+      ".GllG..GllG.",
+      ".GllG...GllG",
+      ".BffB...GllG",
+      "ffffB...BffB",
+      "........BffB",
+      ".......ffffB"
+    ],
+    "legs_side_stand": [
+      "..bbbb......",
+      ".GllllG.....",
+      ".GllllG.....",
+      ".GllllG.....",
+      ".BBffBB.....",
+      "BBffffBB....",
+      "ffffffff...."
+    ],
+    "legs_side_stride_a": [
+      "..bbbb......",
+      ".GllG.Gll...",
+      ".GllG..Gll..",
+      "BffB...Gll..",
+      "ffffB..Bff..",
+      "......BBff..",
+      ".....ffff..."
+    ],
+    "legs_side_stride_b": [
+      "....bbbb....",
+      "..llG.GllG..",
+      ".llG..GllG..",
+      ".llG...Bff..",
+      "BffB..ffff..",
+      "ffBB........",
+      ".ffff......."
+    ]
+  },
+  "layers": [
+    {
+      "name": "club",
+      "z": 0,
+      "origin": [
+        2,
+        5
+      ],
+      "rows": "club_front"
+    },
+    {
+      "name": "legs",
+      "z": 1,
+      "origin": [
+        6,
+        20
+      ],
+      "rows": "legs_front_stand"
+    },
+    {
+      "name": "body",
+      "z": 2,
+      "origin": [
+        5,
+        11
+      ],
+      "rows": "body_front"
+    },
+    {
+      "name": "head",
+      "z": 3,
+      "origin": [
+        6,
+        2
+      ],
+      "rows": "head_front"
+    }
+  ],
+  "frames": [
+    {
+      "name": "down-stand"
+    },
+    {
+      "name": "down-step-a",
+      "layers": {
+        "head": {
+          "dy": 1
+        },
+        "body": {
+          "dy": 1
+        },
+        "club": {
+          "dy": 1
+        },
+        "legs": {
+          "rows": "legs_front_step_a"
+        }
+      }
+    },
+    {
+      "name": "down-stand-2"
+    },
+    {
+      "name": "down-step-b",
+      "layers": {
+        "head": {
+          "dy": 1
+        },
+        "body": {
+          "dy": 1
+        },
+        "club": {
+          "dy": 1
+        },
+        "legs": {
+          "rows": "legs_front_step_a",
+          "mirror": true
+        }
+      }
+    },
+    {
+      "name": "up-stand",
+      "layers": {
+        "head": {
+          "rows": "head_back"
+        },
+        "body": {
+          "rows": "body_back"
+        }
+      }
+    },
+    {
+      "name": "up-step-a",
+      "layers": {
+        "head": {
+          "rows": "head_back",
+          "dy": 1
+        },
+        "body": {
+          "rows": "body_back",
+          "dy": 1
+        },
+        "club": {
+          "dy": 1
+        },
+        "legs": {
+          "rows": "legs_front_step_a"
+        }
+      }
+    },
+    {
+      "name": "up-stand-2",
+      "layers": {
+        "head": {
+          "rows": "head_back"
+        },
+        "body": {
+          "rows": "body_back"
+        }
+      }
+    },
+    {
+      "name": "up-step-b",
+      "layers": {
+        "head": {
+          "rows": "head_back",
+          "dy": 1
+        },
+        "body": {
+          "rows": "body_back",
+          "dy": 1
+        },
+        "club": {
+          "dy": 1
+        },
+        "legs": {
+          "rows": "legs_front_step_a",
+          "mirror": true
+        }
+      }
+    },
+    {
+      "name": "right-stand",
+      "layers": {
+        "head": {
+          "rows": "head_side"
+        },
+        "body": {
+          "rows": "body_side"
+        },
+        "legs": {
+          "rows": "legs_side_stand"
+        },
+        "club": {
+          "rows": "club_side"
+        }
+      }
+    },
+    {
+      "name": "right-step-a",
+      "layers": {
+        "head": {
+          "rows": "head_side",
+          "dy": 1
+        },
+        "body": {
+          "rows": "body_side_lean_fore",
+          "dy": 1
+        },
+        "legs": {
+          "rows": "legs_side_stride_a"
+        },
+        "club": {
+          "rows": "club_side",
+          "dy": 1
+        }
+      }
+    },
+    {
+      "name": "right-stand-2",
+      "layers": {
+        "head": {
+          "rows": "head_side"
+        },
+        "body": {
+          "rows": "body_side"
+        },
+        "legs": {
+          "rows": "legs_side_stand"
+        },
+        "club": {
+          "rows": "club_side"
+        }
+      }
+    },
+    {
+      "name": "right-step-b",
+      "layers": {
+        "head": {
+          "rows": "head_side",
+          "dy": 1
+        },
+        "body": {
+          "rows": "body_side_lean_back",
+          "dy": 1
+        },
+        "legs": {
+          "rows": "legs_side_stride_b"
+        },
+        "club": {
+          "rows": "club_side",
+          "dy": 1
+        }
+      }
+    },
+    {
+      "name": "left-stand",
+      "flip_x": true,
+      "layers": {
+        "head": {
+          "rows": "head_side"
+        },
+        "body": {
+          "rows": "body_side"
+        },
+        "legs": {
+          "rows": "legs_side_stand"
+        },
+        "club": {
+          "rows": "club_side"
+        }
+      }
+    },
+    {
+      "name": "left-step-a",
+      "flip_x": true,
+      "layers": {
+        "head": {
+          "rows": "head_side",
+          "dy": 1
+        },
+        "body": {
+          "rows": "body_side_lean_fore",
+          "dy": 1
+        },
+        "legs": {
+          "rows": "legs_side_stride_a"
+        },
+        "club": {
+          "rows": "club_side",
+          "dy": 1
+        }
+      }
+    },
+    {
+      "name": "left-stand-2",
+      "flip_x": true,
+      "layers": {
+        "head": {
+          "rows": "head_side"
+        },
+        "body": {
+          "rows": "body_side"
+        },
+        "legs": {
+          "rows": "legs_side_stand"
+        },
+        "club": {
+          "rows": "club_side"
+        }
+      }
+    },
+    {
+      "name": "left-step-b",
+      "flip_x": true,
+      "layers": {
+        "head": {
+          "rows": "head_side",
+          "dy": 1
+        },
+        "body": {
+          "rows": "body_side_lean_back",
+          "dy": 1
+        },
+        "legs": {
+          "rows": "legs_side_stride_b"
+        },
+        "club": {
+          "rows": "club_side",
+          "dy": 1
+        }
+      }
+    }
+  ],
+  "clips": {
+    "walk_down": {
+      "frames": [
+        "down-stand",
+        "down-step-a",
+        "down-stand-2",
+        "down-step-b"
+      ],
+      "duration_ms": 180,
+      "loop": true
+    },
+    "walk_up": {
+      "frames": [
+        "up-stand",
+        "up-step-a",
+        "up-stand-2",
+        "up-step-b"
+      ],
+      "duration_ms": 180,
+      "loop": true
+    },
+    "walk_right": {
+      "frames": [
+        "right-stand",
+        "right-step-a",
+        "right-stand-2",
+        "right-step-b"
+      ],
+      "duration_ms": 180,
+      "loop": true
+    },
+    "walk_left": {
+      "frames": [
+        "left-stand",
+        "left-step-a",
+        "left-stand-2",
+        "left-step-b"
+      ],
+      "duration_ms": 180,
+      "loop": true
+    }
+  }
+}

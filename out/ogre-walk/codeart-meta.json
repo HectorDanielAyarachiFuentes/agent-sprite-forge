@@ -1,0 +1,1352 @@
+{
+  "schema": "codeart2d.codeart_meta.v1",
+  "art_source": "code",
+  "placeholder": false,
+  "disclosure": "code-drawn, no image model",
+  "generator": "render_pixelspec.py",
+  "spec_sha256": "573bfc380afb2ad8b52354484dc0c38f32d9baf81843418c7098123b04c2b3af",
+  "renderer": {
+    "name": "codeart_core.render_pixelspec",
+    "version": "1.1"
+  },
+  "palette": {
+    "colors": {
+      "k": "#181622",
+      "g": "#5e9436",
+      "G": "#3a6620",
+      "l": "#86c244",
+      "w": "#eee4be",
+      "W": "#b2a278",
+      "y": "#f6c428",
+      "r": "#c2241e",
+      "b": "#6e4222",
+      "B": "#442410",
+      "m": "#8e969e",
+      "c": "#986436",
+      "C": "#5e381a",
+      "i": "#d8e0e8",
+      "f": "#4a321a"
+    },
+    "variants": {
+      "forest": {},
+      "frost": {
+        "g": "#4e82a4",
+        "G": "#2e5674",
+        "l": "#78b2d8",
+        "b": "#3a4456",
+        "B": "#222836",
+        "f": "#2c3646"
+      },
+      "oni": {
+        "g": "#aa382e",
+        "G": "#742018",
+        "l": "#d65a4c",
+        "b": "#483428",
+        "B": "#2a1c14",
+        "f": "#382218"
+      }
+    }
+  },
+  "outputs": [
+    {
+      "path": "forest/frames/down-stand.png",
+      "sha256": "d9f86161dc64bab85c07b4a5dc71314d453443e9f043a031dc2c85940dc5bd58",
+      "bytes": 548
+    },
+    {
+      "path": "forest/frames/down-step-a.png",
+      "sha256": "c210b34185bf76d4259c8ab8cf91603127e71678c248caeaa1adac16b5146fd6",
+      "bytes": 567
+    },
+    {
+      "path": "forest/frames/down-step-b.png",
+      "sha256": "c10b1cc315b4f70799e0be36fdd7de8c7327a33ff7d0113dcd7718166c523736",
+      "bytes": 562
+    },
+    {
+      "path": "forest/frames/up-stand.png",
+      "sha256": "c015ea0274b54aa4de979ff8ca23a1a54d9a94d684edbba98f681a792ab4e025",
+      "bytes": 505
+    },
+    {
+      "path": "forest/frames/up-step-a.png",
+      "sha256": "c1a5ea46670fffe7d8226f01299f29e8da4568d0e1b5136f824399f265c8a392",
+      "bytes": 512
+    },
+    {
+      "path": "forest/frames/up-step-b.png",
+      "sha256": "e008d06e2f1e0e2d811988ecff1bbda0dfefbe56ed8477577642aa848f74e9ac",
+      "bytes": 511
+    },
+    {
+      "path": "forest/frames/right-stand.png",
+      "sha256": "82d592c050e2b825feb4630785b88f6316fa0b36172a6b1878b7f03f9f69e4e7",
+      "bytes": 544
+    },
+    {
+      "path": "forest/frames/right-step-a.png",
+      "sha256": "763247d6c4a6356c95124de0b2eb7c7ae304cee5ba11c58428528c331e7d37e9",
+      "bytes": 579
+    },
+    {
+      "path": "forest/frames/right-step-b.png",
+      "sha256": "1208866f2caec4300b488ce0a861f84ca8ac366b0337e57e0827e9733812438c",
+      "bytes": 540
+    },
+    {
+      "path": "forest/frames/left-stand.png",
+      "sha256": "ce348d07b53747e9d35f70af85ce0a0285a6182a4ca71fb707d56a78f5b57faa",
+      "bytes": 532
+    },
+    {
+      "path": "forest/frames/left-step-a.png",
+      "sha256": "ff51a858c700291a032eca08ad91df2dbd59a21a1c5914d7192fc673f93e7912",
+      "bytes": 554
+    },
+    {
+      "path": "forest/frames/left-step-b.png",
+      "sha256": "174915fbf375675e6b5fa7f654303b3117e5340c234ef5582ef671d11ad172c9",
+      "bytes": 569
+    },
+    {
+      "path": "frost/frames/down-stand.png",
+      "sha256": "35bda7b85f26d03d52ac48f8e1a2fba864c23bd035fefd8bea5e74eaf89d98a0",
+      "bytes": 573
+    },
+    {
+      "path": "frost/frames/down-step-a.png",
+      "sha256": "a63f378bbccde7666c54fef08b73b841269e4431b44d6cea9f073398032f8735",
+      "bytes": 558
+    },
+    {
+      "path": "frost/frames/down-step-b.png",
+      "sha256": "2dce3333c92b377b1eafbe5c113f660f07354a78d7390388d5f842f73ddf850d",
+      "bytes": 568
+    },
+    {
+      "path": "frost/frames/up-stand.png",
+      "sha256": "0f21226463e5b3fe529647e94e703bedb1db38ea3dca4e7ff8ad5b44d92746a2",
+      "bytes": 516
+    },
+    {
+      "path": "frost/frames/up-step-a.png",
+      "sha256": "5c8a28de2fac9bfa18e632c2a824c6120e36a677272e6bb3a1221a58156d8877",
+      "bytes": 499
+    },
+    {
+      "path": "frost/frames/up-step-b.png",
+      "sha256": "1dbfea786fa566d5e2d717c885c93b53356dd1b1d38a3dc49b369c52a6e3d6c3",
+      "bytes": 512
+    },
+    {
+      "path": "frost/frames/right-stand.png",
+      "sha256": "5dc4b2d1a27a0f1c1288f4b4b065fe35de79ad7253a3c3d142165ec82aa9fb59",
+      "bytes": 532
+    },
+    {
+      "path": "frost/frames/right-step-a.png",
+      "sha256": "4417816daef5d03274230dfa3679373171c8699836c85c529caee3966155914e",
+      "bytes": 567
+    },
+    {
+      "path": "frost/frames/right-step-b.png",
+      "sha256": "adee6ebd646059e3b94372ef7e5c421b93f56ca71764ce787b38dc218a0ff8e3",
+      "bytes": 561
+    },
+    {
+      "path": "frost/frames/left-stand.png",
+      "sha256": "a88a9fae0821bd6d45c50e3545f0675271e276f719803facf03f3fa10ee9ddc6",
+      "bytes": 521
+    },
+    {
+      "path": "frost/frames/left-step-a.png",
+      "sha256": "2d0f549845aec534d333911dfb12e2e438cb24be8e37b74b4aabe797bdb14eb0",
+      "bytes": 555
+    },
+    {
+      "path": "frost/frames/left-step-b.png",
+      "sha256": "9ffcdc43aba17002bdd46ad0a220e48b28e87c8fe7c790d5d6f99c8b1ecf63bf",
+      "bytes": 558
+    },
+    {
+      "path": "oni/frames/down-stand.png",
+      "sha256": "c21e3af0ba6ca5508e620ca37942a1c94cff7df77d40599aafa324b597b80d82",
+      "bytes": 556
+    },
+    {
+      "path": "oni/frames/down-step-a.png",
+      "sha256": "f003bbc0f205f4e8f302f27a20aa668571b8f1081c9210a326fec74a3227b34b",
+      "bytes": 572
+    },
+    {
+      "path": "oni/frames/down-step-b.png",
+      "sha256": "19ff0211c63a222fd2a351554a0280bd601c81a9615534ca4cb911d2701a8bfe",
+      "bytes": 577
+    },
+    {
+      "path": "oni/frames/up-stand.png",
+      "sha256": "2171c32bc440f164be68756ca4319c0c9ddd64512f1162484a9697aa212dafed",
+      "bytes": 501
+    },
+    {
+      "path": "oni/frames/up-step-a.png",
+      "sha256": "e35524d57082a49fafbcf365a16eeba3aebae53a6b0159dc449c8f1c424a322e",
+      "bytes": 515
+    },
+    {
+      "path": "oni/frames/up-step-b.png",
+      "sha256": "85b233450c4334ebda04749c41bb37d3710813c8f39968471410a0f8c7c853df",
+      "bytes": 519
+    },
+    {
+      "path": "oni/frames/right-stand.png",
+      "sha256": "758cb22ebbae959d2ece2ff0cc70853e6c771a3617908b9a4975488ca04ab8d8",
+      "bytes": 520
+    },
+    {
+      "path": "oni/frames/right-step-a.png",
+      "sha256": "581bad5c2fdf8622a24eb2acbb717f3fc1d17b98616039c7840464c7c89e89cf",
+      "bytes": 550
+    },
+    {
+      "path": "oni/frames/right-step-b.png",
+      "sha256": "961bc2b2ab41b93acf9c574ba6583e417adaa4ff218a91b427a52ec8360daf84",
+      "bytes": 530
+    },
+    {
+      "path": "oni/frames/left-stand.png",
+      "sha256": "dabe5d8192e9e2a8a884ae83b6647102d9200c8651763b0e3ecef85859b77a26",
+      "bytes": 514
+    },
+    {
+      "path": "oni/frames/left-step-a.png",
+      "sha256": "53b919fdd6ef94c9361f71539817d6abc5aa64fd5428ecc79f28a120276a86d2",
+      "bytes": 550
+    },
+    {
+      "path": "oni/frames/left-step-b.png",
+      "sha256": "84104612ba2e8da97a4d4e98ca7674327ca8b559221c999357f682ce266a6bb6",
+      "bytes": 556
+    },
+    {
+      "path": "forest/clips.json",
+      "sha256": "dfc734feb6426a806e96b57c49d1596f9cd1668af3f2ee02ff63377e20a3d7f2",
+      "bytes": 1743
+    },
+    {
+      "path": "frost/clips.json",
+      "sha256": "dfc734feb6426a806e96b57c49d1596f9cd1668af3f2ee02ff63377e20a3d7f2",
+      "bytes": 1743
+    },
+    {
+      "path": "oni/clips.json",
+      "sha256": "dfc734feb6426a806e96b57c49d1596f9cd1668af3f2ee02ff63377e20a3d7f2",
+      "bytes": 1743
+    },
+    {
+      "path": "preview-x6.png",
+      "sha256": "be8bd992b4b4a4c28183bc7f2a87ca567fd20ded2e8146b32ae4d674cbe6aeee",
+      "bytes": 15150
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "method": "render_pixelspec.py: every published frame PNG is read back and measured with codeart_core.qa_pixels against the resolved palette of its variant (alpha census, exact palette lookup and, with an outline, 4-neighbour outline gaps and L-corners); each check is the worst frame against its gate in codeart_core.QA_PIXEL_GATES",
+    "notProven": [
+      "Readability, silhouette and appeal at game scale; check them on a review sheet (pixel_qa.py --review).",
+      "Motion, timing and spacing between frames; numbers do not judge animation quality.",
+      "That the art matches the brief and the intent of the spec."
+    ],
+    "checks": [
+      {
+        "id": "partial_alpha",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0
+      },
+      {
+        "id": "off_palette",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0
+      },
+      {
+        "id": "outline_gaps",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0
+      },
+      {
+        "id": "l_corners",
+        "status": "pass",
+        "value": 7,
+        "threshold": 10
+      },
+      {
+        "id": "half_cycle_duplicates",
+        "status": "pass",
+        "value": 1.0,
+        "threshold": 0.95,
+        "detail": {
+          "clips": [
+            {
+              "clip": "walk_down",
+              "frames": 4,
+              "pairs": [
+                [
+                  0,
+                  2,
+                  1.0
+                ],
+                [
+                  1,
+                  3,
+                  0.8896
+                ]
+              ]
+            },
+            {
+              "clip": "walk_up",
+              "frames": 4,
+              "pairs": [
+                [
+                  0,
+                  2,
+                  1.0
+                ],
+                [
+                  1,
+                  3,
+                  0.8896
+                ]
+              ]
+            },
+            {
+              "clip": "walk_right",
+              "frames": 4,
+              "pairs": [
+                [
+                  0,
+                  2,
+                  1.0
+                ],
+                [
+                  1,
+                  3,
+                  0.8315
+                ]
+              ]
+            },
+            {
+              "clip": "walk_left",
+              "frames": 4,
+              "pairs": [
+                [
+                  0,
+                  2,
+                  1.0
+                ],
+                [
+                  1,
+                  3,
+                  0.8315
+                ]
+              ]
+            }
+          ],
+          "variant": "forest"
+        },
+        "failing": [
+          "walk_down 0/2 (IoU 1.00)",
+          "walk_up 0/2 (IoU 1.00)",
+          "walk_right 0/2 (IoU 1.00)",
+          "walk_left 0/2 (IoU 1.00)"
+        ],
+        "override": "--allow-duplicate-half-cycle"
+      }
+    ],
+    "inputs": [
+      {
+        "path": "../../specs/ogre.pixelspec.json",
+        "sha256": "573bfc380afb2ad8b52354484dc0c38f32d9baf81843418c7098123b04c2b3af",
+        "bytes": 10645
+      }
+    ],
+    "outputs": [
+      {
+        "path": "forest/frames/down-stand.png",
+        "sha256": "d9f86161dc64bab85c07b4a5dc71314d453443e9f043a031dc2c85940dc5bd58",
+        "bytes": 548
+      },
+      {
+        "path": "forest/frames/down-step-a.png",
+        "sha256": "c210b34185bf76d4259c8ab8cf91603127e71678c248caeaa1adac16b5146fd6",
+        "bytes": 567
+      },
+      {
+        "path": "forest/frames/down-step-b.png",
+        "sha256": "c10b1cc315b4f70799e0be36fdd7de8c7327a33ff7d0113dcd7718166c523736",
+        "bytes": 562
+      },
+      {
+        "path": "forest/frames/up-stand.png",
+        "sha256": "c015ea0274b54aa4de979ff8ca23a1a54d9a94d684edbba98f681a792ab4e025",
+        "bytes": 505
+      },
+      {
+        "path": "forest/frames/up-step-a.png",
+        "sha256": "c1a5ea46670fffe7d8226f01299f29e8da4568d0e1b5136f824399f265c8a392",
+        "bytes": 512
+      },
+      {
+        "path": "forest/frames/up-step-b.png",
+        "sha256": "e008d06e2f1e0e2d811988ecff1bbda0dfefbe56ed8477577642aa848f74e9ac",
+        "bytes": 511
+      },
+      {
+        "path": "forest/frames/right-stand.png",
+        "sha256": "82d592c050e2b825feb4630785b88f6316fa0b36172a6b1878b7f03f9f69e4e7",
+        "bytes": 544
+      },
+      {
+        "path": "forest/frames/right-step-a.png",
+        "sha256": "763247d6c4a6356c95124de0b2eb7c7ae304cee5ba11c58428528c331e7d37e9",
+        "bytes": 579
+      },
+      {
+        "path": "forest/frames/right-step-b.png",
+        "sha256": "1208866f2caec4300b488ce0a861f84ca8ac366b0337e57e0827e9733812438c",
+        "bytes": 540
+      },
+      {
+        "path": "forest/frames/left-stand.png",
+        "sha256": "ce348d07b53747e9d35f70af85ce0a0285a6182a4ca71fb707d56a78f5b57faa",
+        "bytes": 532
+      },
+      {
+        "path": "forest/frames/left-step-a.png",
+        "sha256": "ff51a858c700291a032eca08ad91df2dbd59a21a1c5914d7192fc673f93e7912",
+        "bytes": 554
+      },
+      {
+        "path": "forest/frames/left-step-b.png",
+        "sha256": "174915fbf375675e6b5fa7f654303b3117e5340c234ef5582ef671d11ad172c9",
+        "bytes": 569
+      },
+      {
+        "path": "frost/frames/down-stand.png",
+        "sha256": "35bda7b85f26d03d52ac48f8e1a2fba864c23bd035fefd8bea5e74eaf89d98a0",
+        "bytes": 573
+      },
+      {
+        "path": "frost/frames/down-step-a.png",
+        "sha256": "a63f378bbccde7666c54fef08b73b841269e4431b44d6cea9f073398032f8735",
+        "bytes": 558
+      },
+      {
+        "path": "frost/frames/down-step-b.png",
+        "sha256": "2dce3333c92b377b1eafbe5c113f660f07354a78d7390388d5f842f73ddf850d",
+        "bytes": 568
+      },
+      {
+        "path": "frost/frames/up-stand.png",
+        "sha256": "0f21226463e5b3fe529647e94e703bedb1db38ea3dca4e7ff8ad5b44d92746a2",
+        "bytes": 516
+      },
+      {
+        "path": "frost/frames/up-step-a.png",
+        "sha256": "5c8a28de2fac9bfa18e632c2a824c6120e36a677272e6bb3a1221a58156d8877",
+        "bytes": 499
+      },
+      {
+        "path": "frost/frames/up-step-b.png",
+        "sha256": "1dbfea786fa566d5e2d717c885c93b53356dd1b1d38a3dc49b369c52a6e3d6c3",
+        "bytes": 512
+      },
+      {
+        "path": "frost/frames/right-stand.png",
+        "sha256": "5dc4b2d1a27a0f1c1288f4b4b065fe35de79ad7253a3c3d142165ec82aa9fb59",
+        "bytes": 532
+      },
+      {
+        "path": "frost/frames/right-step-a.png",
+        "sha256": "4417816daef5d03274230dfa3679373171c8699836c85c529caee3966155914e",
+        "bytes": 567
+      },
+      {
+        "path": "frost/frames/right-step-b.png",
+        "sha256": "adee6ebd646059e3b94372ef7e5c421b93f56ca71764ce787b38dc218a0ff8e3",
+        "bytes": 561
+      },
+      {
+        "path": "frost/frames/left-stand.png",
+        "sha256": "a88a9fae0821bd6d45c50e3545f0675271e276f719803facf03f3fa10ee9ddc6",
+        "bytes": 521
+      },
+      {
+        "path": "frost/frames/left-step-a.png",
+        "sha256": "2d0f549845aec534d333911dfb12e2e438cb24be8e37b74b4aabe797bdb14eb0",
+        "bytes": 555
+      },
+      {
+        "path": "frost/frames/left-step-b.png",
+        "sha256": "9ffcdc43aba17002bdd46ad0a220e48b28e87c8fe7c790d5d6f99c8b1ecf63bf",
+        "bytes": 558
+      },
+      {
+        "path": "oni/frames/down-stand.png",
+        "sha256": "c21e3af0ba6ca5508e620ca37942a1c94cff7df77d40599aafa324b597b80d82",
+        "bytes": 556
+      },
+      {
+        "path": "oni/frames/down-step-a.png",
+        "sha256": "f003bbc0f205f4e8f302f27a20aa668571b8f1081c9210a326fec74a3227b34b",
+        "bytes": 572
+      },
+      {
+        "path": "oni/frames/down-step-b.png",
+        "sha256": "19ff0211c63a222fd2a351554a0280bd601c81a9615534ca4cb911d2701a8bfe",
+        "bytes": 577
+      },
+      {
+        "path": "oni/frames/up-stand.png",
+        "sha256": "2171c32bc440f164be68756ca4319c0c9ddd64512f1162484a9697aa212dafed",
+        "bytes": 501
+      },
+      {
+        "path": "oni/frames/up-step-a.png",
+        "sha256": "e35524d57082a49fafbcf365a16eeba3aebae53a6b0159dc449c8f1c424a322e",
+        "bytes": 515
+      },
+      {
+        "path": "oni/frames/up-step-b.png",
+        "sha256": "85b233450c4334ebda04749c41bb37d3710813c8f39968471410a0f8c7c853df",
+        "bytes": 519
+      },
+      {
+        "path": "oni/frames/right-stand.png",
+        "sha256": "758cb22ebbae959d2ece2ff0cc70853e6c771a3617908b9a4975488ca04ab8d8",
+        "bytes": 520
+      },
+      {
+        "path": "oni/frames/right-step-a.png",
+        "sha256": "581bad5c2fdf8622a24eb2acbb717f3fc1d17b98616039c7840464c7c89e89cf",
+        "bytes": 550
+      },
+      {
+        "path": "oni/frames/right-step-b.png",
+        "sha256": "961bc2b2ab41b93acf9c574ba6583e417adaa4ff218a91b427a52ec8360daf84",
+        "bytes": 530
+      },
+      {
+        "path": "oni/frames/left-stand.png",
+        "sha256": "dabe5d8192e9e2a8a884ae83b6647102d9200c8651763b0e3ecef85859b77a26",
+        "bytes": 514
+      },
+      {
+        "path": "oni/frames/left-step-a.png",
+        "sha256": "53b919fdd6ef94c9361f71539817d6abc5aa64fd5428ecc79f28a120276a86d2",
+        "bytes": 550
+      },
+      {
+        "path": "oni/frames/left-step-b.png",
+        "sha256": "84104612ba2e8da97a4d4e98ca7674327ca8b559221c999357f682ce266a6bb6",
+        "bytes": 556
+      }
+    ],
+    "tool": {
+      "name": "render_pixelspec.py",
+      "version": "0.4.0"
+    },
+    "frames": [
+      {
+        "file": "forest/frames/down-stand.png",
+        "variant": "forest",
+        "frame": "down-stand",
+        "visible": 328,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 13,
+        "orphans": 34,
+        "l_corners": 4,
+        "outline_gaps": 0,
+        "bbox": [
+          4,
+          1,
+          20,
+          28
+        ]
+      },
+      {
+        "file": "forest/frames/down-step-a.png",
+        "variant": "forest",
+        "frame": "down-step-a",
+        "visible": 308,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 13,
+        "orphans": 38,
+        "l_corners": 4,
+        "outline_gaps": 0,
+        "bbox": [
+          4,
+          2,
+          20,
+          28
+        ]
+      },
+      {
+        "file": "forest/frames/down-step-b.png",
+        "variant": "forest",
+        "frame": "down-step-b",
+        "visible": 308,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 13,
+        "orphans": 38,
+        "l_corners": 4,
+        "outline_gaps": 0,
+        "bbox": [
+          4,
+          2,
+          20,
+          28
+        ]
+      },
+      {
+        "file": "forest/frames/up-stand.png",
+        "variant": "forest",
+        "frame": "up-stand",
+        "visible": 328,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 9,
+        "orphans": 32,
+        "l_corners": 4,
+        "outline_gaps": 0,
+        "bbox": [
+          4,
+          1,
+          20,
+          28
+        ]
+      },
+      {
+        "file": "forest/frames/up-step-a.png",
+        "variant": "forest",
+        "frame": "up-step-a",
+        "visible": 308,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 9,
+        "orphans": 36,
+        "l_corners": 4,
+        "outline_gaps": 0,
+        "bbox": [
+          4,
+          2,
+          20,
+          28
+        ]
+      },
+      {
+        "file": "forest/frames/up-step-b.png",
+        "variant": "forest",
+        "frame": "up-step-b",
+        "visible": 308,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 9,
+        "orphans": 36,
+        "l_corners": 4,
+        "outline_gaps": 0,
+        "bbox": [
+          4,
+          2,
+          20,
+          28
+        ]
+      },
+      {
+        "file": "forest/frames/right-stand.png",
+        "variant": "forest",
+        "frame": "right-stand",
+        "visible": 254,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 15,
+        "orphans": 32,
+        "l_corners": 2,
+        "outline_gaps": 0,
+        "bbox": [
+          1,
+          1,
+          16,
+          28
+        ]
+      },
+      {
+        "file": "forest/frames/right-step-a.png",
+        "variant": "forest",
+        "frame": "right-step-a",
+        "visible": 253,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 15,
+        "orphans": 40,
+        "l_corners": 7,
+        "outline_gaps": 0,
+        "bbox": [
+          1,
+          2,
+          17,
+          28
+        ]
+      },
+      {
+        "file": "forest/frames/right-step-b.png",
+        "variant": "forest",
+        "frame": "right-step-b",
+        "visible": 258,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 15,
+        "orphans": 35,
+        "l_corners": 5,
+        "outline_gaps": 0,
+        "bbox": [
+          1,
+          2,
+          17,
+          28
+        ]
+      },
+      {
+        "file": "forest/frames/left-stand.png",
+        "variant": "forest",
+        "frame": "left-stand",
+        "visible": 254,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 15,
+        "orphans": 32,
+        "l_corners": 2,
+        "outline_gaps": 0,
+        "bbox": [
+          8,
+          1,
+          23,
+          28
+        ]
+      },
+      {
+        "file": "forest/frames/left-step-a.png",
+        "variant": "forest",
+        "frame": "left-step-a",
+        "visible": 253,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 15,
+        "orphans": 40,
+        "l_corners": 7,
+        "outline_gaps": 0,
+        "bbox": [
+          7,
+          2,
+          23,
+          28
+        ]
+      },
+      {
+        "file": "forest/frames/left-step-b.png",
+        "variant": "forest",
+        "frame": "left-step-b",
+        "visible": 258,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 15,
+        "orphans": 35,
+        "l_corners": 5,
+        "outline_gaps": 0,
+        "bbox": [
+          7,
+          2,
+          23,
+          28
+        ]
+      },
+      {
+        "file": "frost/frames/down-stand.png",
+        "variant": "frost",
+        "frame": "down-stand",
+        "visible": 328,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 13,
+        "orphans": 34,
+        "l_corners": 4,
+        "outline_gaps": 0,
+        "bbox": [
+          4,
+          1,
+          20,
+          28
+        ]
+      },
+      {
+        "file": "frost/frames/down-step-a.png",
+        "variant": "frost",
+        "frame": "down-step-a",
+        "visible": 308,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 13,
+        "orphans": 38,
+        "l_corners": 4,
+        "outline_gaps": 0,
+        "bbox": [
+          4,
+          2,
+          20,
+          28
+        ]
+      },
+      {
+        "file": "frost/frames/down-step-b.png",
+        "variant": "frost",
+        "frame": "down-step-b",
+        "visible": 308,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 13,
+        "orphans": 38,
+        "l_corners": 4,
+        "outline_gaps": 0,
+        "bbox": [
+          4,
+          2,
+          20,
+          28
+        ]
+      },
+      {
+        "file": "frost/frames/up-stand.png",
+        "variant": "frost",
+        "frame": "up-stand",
+        "visible": 328,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 9,
+        "orphans": 32,
+        "l_corners": 4,
+        "outline_gaps": 0,
+        "bbox": [
+          4,
+          1,
+          20,
+          28
+        ]
+      },
+      {
+        "file": "frost/frames/up-step-a.png",
+        "variant": "frost",
+        "frame": "up-step-a",
+        "visible": 308,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 9,
+        "orphans": 36,
+        "l_corners": 4,
+        "outline_gaps": 0,
+        "bbox": [
+          4,
+          2,
+          20,
+          28
+        ]
+      },
+      {
+        "file": "frost/frames/up-step-b.png",
+        "variant": "frost",
+        "frame": "up-step-b",
+        "visible": 308,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 9,
+        "orphans": 36,
+        "l_corners": 4,
+        "outline_gaps": 0,
+        "bbox": [
+          4,
+          2,
+          20,
+          28
+        ]
+      },
+      {
+        "file": "frost/frames/right-stand.png",
+        "variant": "frost",
+        "frame": "right-stand",
+        "visible": 254,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 15,
+        "orphans": 32,
+        "l_corners": 2,
+        "outline_gaps": 0,
+        "bbox": [
+          1,
+          1,
+          16,
+          28
+        ]
+      },
+      {
+        "file": "frost/frames/right-step-a.png",
+        "variant": "frost",
+        "frame": "right-step-a",
+        "visible": 253,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 15,
+        "orphans": 40,
+        "l_corners": 7,
+        "outline_gaps": 0,
+        "bbox": [
+          1,
+          2,
+          17,
+          28
+        ]
+      },
+      {
+        "file": "frost/frames/right-step-b.png",
+        "variant": "frost",
+        "frame": "right-step-b",
+        "visible": 258,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 15,
+        "orphans": 35,
+        "l_corners": 5,
+        "outline_gaps": 0,
+        "bbox": [
+          1,
+          2,
+          17,
+          28
+        ]
+      },
+      {
+        "file": "frost/frames/left-stand.png",
+        "variant": "frost",
+        "frame": "left-stand",
+        "visible": 254,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 15,
+        "orphans": 32,
+        "l_corners": 2,
+        "outline_gaps": 0,
+        "bbox": [
+          8,
+          1,
+          23,
+          28
+        ]
+      },
+      {
+        "file": "frost/frames/left-step-a.png",
+        "variant": "frost",
+        "frame": "left-step-a",
+        "visible": 253,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 15,
+        "orphans": 40,
+        "l_corners": 7,
+        "outline_gaps": 0,
+        "bbox": [
+          7,
+          2,
+          23,
+          28
+        ]
+      },
+      {
+        "file": "frost/frames/left-step-b.png",
+        "variant": "frost",
+        "frame": "left-step-b",
+        "visible": 258,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 15,
+        "orphans": 35,
+        "l_corners": 5,
+        "outline_gaps": 0,
+        "bbox": [
+          7,
+          2,
+          23,
+          28
+        ]
+      },
+      {
+        "file": "oni/frames/down-stand.png",
+        "variant": "oni",
+        "frame": "down-stand",
+        "visible": 328,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 13,
+        "orphans": 34,
+        "l_corners": 4,
+        "outline_gaps": 0,
+        "bbox": [
+          4,
+          1,
+          20,
+          28
+        ]
+      },
+      {
+        "file": "oni/frames/down-step-a.png",
+        "variant": "oni",
+        "frame": "down-step-a",
+        "visible": 308,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 13,
+        "orphans": 38,
+        "l_corners": 4,
+        "outline_gaps": 0,
+        "bbox": [
+          4,
+          2,
+          20,
+          28
+        ]
+      },
+      {
+        "file": "oni/frames/down-step-b.png",
+        "variant": "oni",
+        "frame": "down-step-b",
+        "visible": 308,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 13,
+        "orphans": 38,
+        "l_corners": 4,
+        "outline_gaps": 0,
+        "bbox": [
+          4,
+          2,
+          20,
+          28
+        ]
+      },
+      {
+        "file": "oni/frames/up-stand.png",
+        "variant": "oni",
+        "frame": "up-stand",
+        "visible": 328,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 9,
+        "orphans": 32,
+        "l_corners": 4,
+        "outline_gaps": 0,
+        "bbox": [
+          4,
+          1,
+          20,
+          28
+        ]
+      },
+      {
+        "file": "oni/frames/up-step-a.png",
+        "variant": "oni",
+        "frame": "up-step-a",
+        "visible": 308,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 9,
+        "orphans": 36,
+        "l_corners": 4,
+        "outline_gaps": 0,
+        "bbox": [
+          4,
+          2,
+          20,
+          28
+        ]
+      },
+      {
+        "file": "oni/frames/up-step-b.png",
+        "variant": "oni",
+        "frame": "up-step-b",
+        "visible": 308,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 9,
+        "orphans": 36,
+        "l_corners": 4,
+        "outline_gaps": 0,
+        "bbox": [
+          4,
+          2,
+          20,
+          28
+        ]
+      },
+      {
+        "file": "oni/frames/right-stand.png",
+        "variant": "oni",
+        "frame": "right-stand",
+        "visible": 254,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 15,
+        "orphans": 32,
+        "l_corners": 2,
+        "outline_gaps": 0,
+        "bbox": [
+          1,
+          1,
+          16,
+          28
+        ]
+      },
+      {
+        "file": "oni/frames/right-step-a.png",
+        "variant": "oni",
+        "frame": "right-step-a",
+        "visible": 253,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 15,
+        "orphans": 40,
+        "l_corners": 7,
+        "outline_gaps": 0,
+        "bbox": [
+          1,
+          2,
+          17,
+          28
+        ]
+      },
+      {
+        "file": "oni/frames/right-step-b.png",
+        "variant": "oni",
+        "frame": "right-step-b",
+        "visible": 258,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 15,
+        "orphans": 35,
+        "l_corners": 5,
+        "outline_gaps": 0,
+        "bbox": [
+          1,
+          2,
+          17,
+          28
+        ]
+      },
+      {
+        "file": "oni/frames/left-stand.png",
+        "variant": "oni",
+        "frame": "left-stand",
+        "visible": 254,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 15,
+        "orphans": 32,
+        "l_corners": 2,
+        "outline_gaps": 0,
+        "bbox": [
+          8,
+          1,
+          23,
+          28
+        ]
+      },
+      {
+        "file": "oni/frames/left-step-a.png",
+        "variant": "oni",
+        "frame": "left-step-a",
+        "visible": 253,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 15,
+        "orphans": 40,
+        "l_corners": 7,
+        "outline_gaps": 0,
+        "bbox": [
+          7,
+          2,
+          23,
+          28
+        ]
+      },
+      {
+        "file": "oni/frames/left-step-b.png",
+        "variant": "oni",
+        "frame": "left-step-b",
+        "visible": 258,
+        "partial_alpha": 0,
+        "off_palette": 0,
+        "colors": 15,
+        "orphans": 35,
+        "l_corners": 5,
+        "outline_gaps": 0,
+        "bbox": [
+          7,
+          2,
+          23,
+          28
+        ]
+      }
+    ]
+  },
+  "pixelspec": {
+    "name": "ogre",
+    "schema": "codeart2d.pixelspec.v1",
+    "canvas": [
+      24,
+      28
+    ],
+    "anchor_px": [
+      12,
+      26
+    ],
+    "outline": "solid",
+    "variants": {
+      "forest": "forest",
+      "frost": "frost",
+      "oni": "oni"
+    },
+    "frames": [
+      {
+        "index": 0,
+        "name": "down-stand",
+        "file": "frames/down-stand.png"
+      },
+      {
+        "index": 1,
+        "name": "down-step-a",
+        "file": "frames/down-step-a.png"
+      },
+      {
+        "index": 2,
+        "name": "down-stand-2",
+        "file": "frames/down-stand.png",
+        "reuses": 0
+      },
+      {
+        "index": 3,
+        "name": "down-step-b",
+        "file": "frames/down-step-b.png"
+      },
+      {
+        "index": 4,
+        "name": "up-stand",
+        "file": "frames/up-stand.png"
+      },
+      {
+        "index": 5,
+        "name": "up-step-a",
+        "file": "frames/up-step-a.png"
+      },
+      {
+        "index": 6,
+        "name": "up-stand-2",
+        "file": "frames/up-stand.png",
+        "reuses": 4
+      },
+      {
+        "index": 7,
+        "name": "up-step-b",
+        "file": "frames/up-step-b.png"
+      },
+      {
+        "index": 8,
+        "name": "right-stand",
+        "file": "frames/right-stand.png"
+      },
+      {
+        "index": 9,
+        "name": "right-step-a",
+        "file": "frames/right-step-a.png"
+      },
+      {
+        "index": 10,
+        "name": "right-stand-2",
+        "file": "frames/right-stand.png",
+        "reuses": 8
+      },
+      {
+        "index": 11,
+        "name": "right-step-b",
+        "file": "frames/right-step-b.png"
+      },
+      {
+        "index": 12,
+        "name": "left-stand",
+        "file": "frames/left-stand.png"
+      },
+      {
+        "index": 13,
+        "name": "left-step-a",
+        "file": "frames/left-step-a.png"
+      },
+      {
+        "index": 14,
+        "name": "left-stand-2",
+        "file": "frames/left-stand.png",
+        "reuses": 12
+      },
+      {
+        "index": 15,
+        "name": "left-step-b",
+        "file": "frames/left-step-b.png"
+      }
+    ],
+    "clips": {
+      "manifest_schema": "generate2dsprite.animation_clips.v2",
+      "manifests": {
+        "forest": "forest/clips.json",
+        "frost": "frost/clips.json",
+        "oni": "oni/clips.json"
+      },
+      "bundles": {
+        "forest": "forest/bundle",
+        "frost": "frost/bundle",
+        "oni": "oni/bundle"
+      },
+      "per_clip": {
+        "walk_down": {
+          "frames": 4,
+          "merged_empty_tail": 0
+        },
+        "walk_up": {
+          "frames": 4,
+          "merged_empty_tail": 0
+        },
+        "walk_right": {
+          "frames": 4,
+          "merged_empty_tail": 0
+        },
+        "walk_left": {
+          "frames": 4,
+          "merged_empty_tail": 0
+        }
+      }
+    },
+    "preview": {
+      "file": "preview-x6.png",
+      "scale": 6,
+      "layout": "rows are variants, columns are distinct frames"
+    }
+  }
+}
